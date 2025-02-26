@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     # 'django.contrib.staticfiles',
 
     'car_advisor_api',
+    'rest_framework',
 ]
 
 MIGRATION_MODULES = {

@@ -6,5 +6,6 @@ class CarAdvisorApiConfig(AppConfig):
     name = 'car_advisor_api'
 
     def ready(self):
-        from car_advisor_api.scripts import add_brands
+        from car_advisor_api.scripts import add_brands, add_cars
         add_brands()
+        add_cars()
