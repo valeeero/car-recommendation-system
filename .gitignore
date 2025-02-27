@@ -1,3 +1,4 @@
 /car_advisor/__pycache__/*
 /car_advisor_api/__pycache__/*
 /car_advisor_api/t.py
+.flake8
